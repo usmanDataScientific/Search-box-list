@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://th.bing.com/th/id/OIP.z6QWbPVuaMP_1qq6wQ7lewHaEK?r=0&rs=1&pid=ImgDetMain') no-repeat center center/cover;
+    color: #333;
+}
+.search-box {
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+}
+
+
+button{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.result-box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 10px 15px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background-color: rgb(225, 225, 225);
+}
+.result-box {
+    max-height: 300px;
+    overflow-y: scroll;
+}
